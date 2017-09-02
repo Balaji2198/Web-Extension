@@ -1,0 +1,20 @@
+{
+	"manifest_version": 2,
+	"name": "Save Content",
+	"description": "Save the selected content",
+	"version": "0.1",
+	 "icons": {
+ 	 "128": "icon.png"
+	 },
+	"permissions" : [
+	"contextMenus"
+	],
+	"background": {
+    		"scripts": ["background.js"]
+	},
+	"browser_action": {
+    "default_icon": "icon.png",
+    "default_title": "Show the contents",
+    "default_popup": "popup.html"
+  }
+}
